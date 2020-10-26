@@ -1,1 +1,1 @@
- CV
+This is the repository for my academic CV hosted on my webpage. The CV is rendered using the [datadrivencv](http://nickstrayer.me/datadrivencv/index.html) package maintained by Nick Strayer. 
