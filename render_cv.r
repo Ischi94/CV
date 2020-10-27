@@ -5,6 +5,17 @@
 # loaded and load the cached version in the .Rmd instead of re-fetching it twice
 # for the HTML and PDF rendering. This exercise is left to the reader.
 
+# devtools::install_github("nstrayer/datadrivencv")
+
+datadrivencv::use_datadriven_cv(
+  full_name = "Gregor Mathes",
+  data_location = "https://docs.google.com/spreadsheets/d/1eF2wRaPknohXmXaRA1f9nfOarGwBhp--SqekUtclCww/edit#gid=917338460",
+  pdf_location = "https://gregor-mathes.netlify.app/#cv",
+  html_location = "https://gregor-mathes.netlify.app/#cv",
+  source_location = "https://github.com/Ischi94/CV"
+)
+
+
 # Knit the HTML version
 rmarkdown::render("cv.rmd",
                   params = list(pdf_mode = FALSE),
