@@ -99,9 +99,7 @@ CV %<>% print_text_block("intro")
 <br>
 <br>
 <br>
-<br> 
 <br>
-<br>  
   
   
   
