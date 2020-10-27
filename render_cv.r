@@ -12,7 +12,7 @@
 # datadrivencv::use_datadriven_cv(
 #   full_name = "Gregor Mathes",
 #   data_location = "https://docs.google.com/spreadsheets/d/1eF2wRaPknohXmXaRA1f9nfOarGwBhp--SqekUtclCww/edit#gid=917338460",
-#   pdf_location = "https://gregor-mathes.netlify.app/#cv",
+#   pdf_location = "https://github.com/Ischi94/CV/blob/master/cv.pdf",
 #   html_location = "https://gregor-mathes.netlify.app/#cv",
 #   source_location = "https://github.com/Ischi94/CV"
 # )
