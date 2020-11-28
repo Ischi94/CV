@@ -223,11 +223,11 @@ CV %<>% print_section('outreach')
 
 <!-- ```{r} -->
 <!-- CV %<>% print_section('data_science_writings') -->
-<!-- ```  -->
+<!-- ``` -->
 
 
-<!-- <br> -->
-<!-- <br> -->
+<br>
+<br>
 
 
 Attended workshops {data-icon=chart-line}
