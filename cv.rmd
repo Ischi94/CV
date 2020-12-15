@@ -124,9 +124,8 @@ CV %<>% print_section('academic_articles')
 
 CV %<>% print_section('presentations')
 ``` 
-
-<br>
-<br>
+  
+\newpage
 
 
 Software development {data-icon=cloud}
@@ -141,13 +140,10 @@ CV %<>% print_text_block('software_aside')
 ```{r}
 CV %<>% print_section('software') 
 ```  
-
-
-\newpage
-
-
-
-
+  
+<br>
+<br>
+  
 
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -188,8 +184,7 @@ CV %<>% print_section('awards_and_honors')
 ``` 
 
 
-<br>
-<br> 
+\newpage 
  
 
 Science outreach {data-icon=comment}
