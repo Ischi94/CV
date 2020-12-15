@@ -45,11 +45,7 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-```{r}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
-```
+<img src="cropped_image_mathes.png" alt="profile">
 
 
 ```{r}
@@ -230,10 +226,10 @@ CV %<>% print_section('outreach')
 ```
 
 
-<br>
-<br> 
-<br> 
-<br>
+<!-- <br> -->
+<!-- <br>  -->
+<!-- <br>  -->
+<!-- <br> -->
 
 
 <!-- Selected Data Science Writing {data-icon=edit} -->
@@ -249,10 +245,10 @@ CV %<>% print_section('outreach')
 <!-- CV %<>% print_section('data_science_writings') -->
 <!-- ``` -->
 
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <br> -->
+<br>
+<br>
+<br>
+<br>
 
 Attended workshops {data-icon=chart-line}
 --------------------------------------------------------------------------------
