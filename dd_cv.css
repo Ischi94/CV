@@ -36,11 +36,32 @@ sup {
 /* Customize some of the sizing variables */
 :root {
   --sidebar-width: 12rem; /* Shrink sidebar width  */
-  --sidebar-background-color: #ffeee9; /* Make sidebar salmon */
+  --sidebar-background-color: #fbfbfb; /* set sidebar colour */
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
-  --decorator-border: 2px solid #ff926a; /* Make timeline a blue as well*/
+  --decorator-border: 2px solid #ffaf7a; /* set timeline colour*/
 }
+
+
+/* set little circle outline colour */
+.decorator::after {
+  background-color: #ff8b3d;
+}
+
+/* set link colour to orange  */
+/* A link that has not been visited */
+a:link {
+    color: #ff8b3d;
+}
+/* A link that has been visited */
+a:visited {
+    color: #ff8b3d;
+}
+/* A link that is hovered on */
+a:hover {
+    color: red;
+}
+
 
 .details .place {
   margin-top: 0.25rem;
@@ -83,11 +104,6 @@ sup {
   font-size: 0.75rem;
 }
 
-/* Make little circle outline be a light blue */
-.decorator::after {
-  background-color: #ff7f51;
-}
-
 /* Remove the fake bullets from lists */
 .aside li::before {
   content: auto;
@@ -122,3 +138,4 @@ sup {
   margin: 0.5rem;
   box-shadow: 1px 1px 4px black;
 }
+
