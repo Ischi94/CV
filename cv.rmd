@@ -97,10 +97,9 @@ Gregor Mathes {#title}
 CV %<>% print_text_block("intro") 
 ``` 
 
-<br>
-<br>
-<br>
 
+<br>
+<br>
   
 
 Education {data-icon=graduation-cap data-concise=true}
@@ -108,26 +107,28 @@ Education {data-icon=graduation-cap data-concise=true}
 
 ```{r}
 CV %<>% print_section('education')
-```
+```  
+  
+ 
+<br> 
+<br>
+
+
 
 \newpage
-
-
-
-
-
-Selected Publications, Posters, and Talks {data-icon=book}
+Publications{data-icon=file}
 --------------------------------------------------------------------------------
 
 ```{r}
 CV %<>% print_section('academic_articles')
 
-CV %<>% print_section('presentations')
-``` 
+```  
   
-\newpage
-
-
+<br>
+<br>
+<br>
+<br>
+  
 Software development {data-icon=cloud}
 --------------------------------------------------------------------------------
 
@@ -139,12 +140,31 @@ CV %<>% print_text_block('software_aside')
 
 ```{r}
 CV %<>% print_section('software') 
-```  
+``` 
   
 <br>
+<br> 
+<br> 
 <br>
+ 
   
 
+\newpage 
+Selected Posters and Talks {data-icon=book}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('presentations')
+``` 
+  
+<br>
+<br> 
+<br> 
+<br>
+
+  
+  
+\newpage  
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
@@ -161,6 +181,8 @@ CV %<>% print_section('industry_positions')
 
 <br>
 <br>
+<br>
+<br>
 
 
 Teaching Experience {data-icon=chalkboard-teacher}
@@ -169,13 +191,17 @@ Teaching Experience {data-icon=chalkboard-teacher}
 
 ```{r}
 CV %<>% print_section('teaching_positions')
-``` 
-
+```  
+  
 <br>
 <br> 
+<br> 
+<br>
+  
+  
  
 
-
+\newpage
 Selected Awards and Honors {data-icon=star}
 --------------------------------------------------------------------------------
 
@@ -184,7 +210,10 @@ CV %<>% print_section('awards_and_honors')
 ``` 
 
 
-\newpage 
+<br>
+<br>
+<br>
+<br>
  
 
 Science outreach {data-icon=comment}
@@ -203,8 +232,8 @@ CV %<>% print_section('outreach')
 
 <br>
 <br> 
-
-
+<br> 
+<br>
 
 
 <!-- Selected Data Science Writing {data-icon=edit} -->
@@ -220,10 +249,10 @@ CV %<>% print_section('outreach')
 <!-- CV %<>% print_section('data_science_writings') -->
 <!-- ``` -->
 
-
-<br>
-<br>
-
+<!-- <br> -->
+<!-- <br> -->
+<!-- <br> -->
+<!-- <br> -->
 
 Attended workshops {data-icon=chart-line}
 --------------------------------------------------------------------------------
@@ -233,10 +262,10 @@ CV %<>% print_section('courses')
 ```
 
 
-
+<br> 
 <br>
 <br>
-
+<br>
 
 
 ```{r}
