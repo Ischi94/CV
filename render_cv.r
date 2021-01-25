@@ -24,7 +24,6 @@ rmarkdown::render("cv.rmd",
                   params = list(pdf_mode = FALSE),
                   output_file = "cv.html")
 
-# comment out data science writing first
 # Knit the PDF version to temporary html location
 tmp_html_cv_loc <- fs::file_temp(ext = ".html")
 rmarkdown::render("cv.rmd",
