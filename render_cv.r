@@ -34,4 +34,17 @@ rmarkdown::render("cv_pdf.rmd",
 pagedown::chrome_print(input = tmp_html_cv_loc,
                        output = "cv.pdf")
 
-# save to static folder/ files
+# save to website: static folder/ files
+# get all files
+files <- list.files(path = "~", recursive = TRUE)
+
+# select the path with cv.html
+my_path <- files[stringr::str_detect(files, "my_website/static/files/cv.html")]
+
+# combine with root
+my_path <- paste(dirname("~"), basename("~"), my_path, sep = "/")
+
+# save to website
+rmarkdown::render("cv.rmd",
+                  params = list(pdf_mode = FALSE),
+                  output_file = my_path)
