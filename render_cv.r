@@ -18,7 +18,6 @@
 # )
 
 
-# add data science writing first
 # Knit the HTML version
 rmarkdown::render("cv.rmd",
                   params = list(pdf_mode = FALSE),
@@ -39,12 +38,19 @@ pagedown::chrome_print(input = tmp_html_cv_loc,
 files <- list.files(path = "~", recursive = TRUE)
 
 # select the path with cv.html
-my_path <- files[stringr::str_detect(files, "my_website/static/files/cv.html")]
+my_path_html <- files[stringr::str_detect(files, "my_website/static/files/cv.html")]
 
 # combine with root
-my_path <- paste(dirname("~"), basename("~"), my_path, sep = "/")
+my_path_html <- paste(dirname("~"), basename("~"), my_path_html, sep = "/")
 
-# save to website
-rmarkdown::render("cv.rmd",
-                  params = list(pdf_mode = FALSE),
-                  output_file = my_path)
+# copy over
+file.copy(from = "cv.html", to = my_path_html, overwrite = TRUE)
+
+
+# same for pdf
+
+my_path_pdf <- files[stringr::str_detect(files, "my_website/static/files/cv.pdf")]
+
+my_path_pdf <- paste(dirname("~"), basename("~"), my_path_pdf, sep = "/")
+
+file.copy(from = "cv.pdf", to = my_path_pdf, overwrite = TRUE)
