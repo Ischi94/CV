@@ -50,9 +50,9 @@ Aside
 
 ```{r}
 if(params$pdf_mode){
-  cat("View this CV online with links [here](https://gregor-mathes.netlify.app/#cv)")
+  cat("View this CV online with links [here]((https://gregor-mathes.netlify.app/files/cv.html)")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/Ischi94/CV/blob/master/cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://gregor-mathes.netlify.app/files/cv.pdf)")
 }
 ```
 
