@@ -142,10 +142,8 @@ CV %<>% print_section('software')
 <br> 
 <br> 
 <br>
- 
   
 
-\newpage 
 Selected Posters and Talks {data-icon=book}
 --------------------------------------------------------------------------------
 
@@ -157,10 +155,7 @@ CV %<>% print_section('presentations')
 <br> 
 <br> 
 <br>
-
   
-  
-\newpage  
 Industry Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
@@ -194,10 +189,6 @@ CV %<>% print_section('teaching_positions')
 <br> 
 <br>
   
-  
- 
-
-\newpage
 Selected Awards and Honors {data-icon=star}
 --------------------------------------------------------------------------------
 
