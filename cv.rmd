@@ -106,51 +106,6 @@ CV %<>% print_section('education')
 ```  
   
  
-<br> 
-<br>
-
-
-
-\newpage
-Publications{data-icon=file}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('academic_articles')
-
-```  
-  
-<br>
-<br>
-<br>
-<br>
-  
-Software development {data-icon=cloud}
---------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('software_aside')
-``` 
-:::
-
-```{r}
-CV %<>% print_section('software') 
-``` 
-  
-<br>
-<br> 
-<br> 
-<br>
-  
-
-Selected Posters and Talks {data-icon=book}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('presentations')
-``` 
-  
 <br>
 <br> 
 <br> 
@@ -222,40 +177,4 @@ CV %<>% print_section('outreach')
 <br>
 <br>
 
-
-Selected Data Science Writing {data-icon=edit}
---------------------------------------------------------------------------------
-
-::: aside
-```{r}
-CV %<>% print_text_block('data_science_writing_aside')
-```
-:::
-
-```{r}
-CV %<>% print_section('data_science_writings')
-```
-
-<br>
-<br>
-<br>
-<br>
-
-Attended workshops {data-icon=chart-line}
---------------------------------------------------------------------------------
-
-```{r}
-CV %<>% print_section('courses')
-```
-
-
-<br> 
-<br>
-<br>
-<br>
-
-
-```{r}
-CV %<>% print_links()
-```
 
